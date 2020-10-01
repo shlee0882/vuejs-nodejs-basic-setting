@@ -28,25 +28,42 @@ https://shlee0882.tistory.com/282?category=797808
 
 https://shlee0882.tistory.com/283?category=797808
 
-## Project setup
+## 실행하기
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## GitHub Pages 배포하기
+
+1. gh-pages 설치하기
+
 ```
-npm run build
+npm install --save gh-pages
 ```
 
-### Lints and fixes files
+2. package.json에 추가하기
+
 ```
-npm run lint
+"homepage": "https://shlee0882.github.io/vuejs-nodejs-basic-setting/"
+
+
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+}
 ```
 
-### Customize configuration
+3. 배포하기
+```
+npm run deploy
+```
+
+4. 배포된 URL 확인하기
+
+```
+https://shlee0882.github.io/vuejs-nodejs-basic-setting
+```
+
+### 레퍼런스
 See [Configuration Reference](https://cli.vuejs.org/config/).
