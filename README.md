@@ -2,6 +2,10 @@
 
 NodeJs를 이용해 웹서버를 띄우고 VueJs 핵심문법을 확인하는 샘플 프로젝트입니다. 
 
+## 테스트 Deploy URL
+
+https://shlee0882.github.io/vuejs-nodejs-basic-setting
+
 ## 설치방법 공유
 
 https://shlee0882.tistory.com/282?category=797808
