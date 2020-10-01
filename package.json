@@ -2,13 +2,13 @@
   "name": "vuejs_nodejs_basic_setting",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://shlee0882.github.io/vuejs-nodejs-basic-setting/",
+  "homepage": "https://shlee0882.github.io/vuejs-nodejs-basic-setting/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
