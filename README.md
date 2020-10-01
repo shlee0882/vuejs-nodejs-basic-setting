@@ -65,5 +65,5 @@ npm run deploy
 https://shlee0882.github.io/vuejs-nodejs-basic-setting
 ```
 
-### 레퍼런스
+## 레퍼런스
 See [Configuration Reference](https://cli.vuejs.org/config/).
