@@ -1,5 +1,9 @@
 # client
 
+## 설치방법 공유
+
+https://shlee0882.tistory.com/282?category=797808
+
 ## Project setup
 ```
 npm install
